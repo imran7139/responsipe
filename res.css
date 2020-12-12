@@ -1,0 +1,8 @@
+.contener{background-color: aqua;display:flex;justify-content: flex-end;}
+.contener a{text-decoration: none; padding: 20px;text-transform: uppercase;transition: 0.5s;color: white;}
+.contener a:hover{background-color: rgb(209, 127, 20);border-radius: 10px;color: black;}
+@media screen and (max-width:600px){
+
+    .contener{flex-direction: column;}
+    .contener a {background-color: darkblue;margin: 10px 0px;text-align: center;width: 100px;border-radius: 10px;}
+}
